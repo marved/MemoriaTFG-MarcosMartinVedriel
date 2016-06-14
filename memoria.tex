@@ -364,12 +364,6 @@ El objetivo principal de este trabajo es la creación de una aplicación web col
 En este capítulo se describen las tecnologías utilizadas para la realización de la aplicación.
 
 
-%Puedes citar libros, como el de Bonabeau et al. sobre procesos estigmargicos~\cite{bonabeau:_swarm}. % Nota que el ~ aï¿½ade un espacio en blanco, pero no deja que exista un salto de lï¿½nea. Imprescindible ponerlo para las citas.
-
-%También existe la posibilidad de poner notas al pie de página, por ejemplo, 
-%una para indicarte que visite la página de 
-%LibreSoft\footnote{\url{http://www.libresoft.es}}.
-
 \section{Python} 
 \label{sec:python}
 
@@ -932,6 +926,11 @@ $vagrant provision
 
  Para probar la aplicación web desde el navegador hay que introducir una url que contenga la dirección IP y el puerto configurados en el archivo \textit{Vagrantfile} de esta forma: \textit{http://IP:PUERTO/}.
 \newline
+
+Y para apagar la máquina se ejecuta la siguiente instrucción:
+\begin{verbatim} 
+$vagrant halt 
+\end{verbatim}  
 
 En este entorno es en el que se han ido probando todas las funcionalidades nuevas que se han ido desarrollando, lo que ha permitido corregir errores y revertirlos.
 
